@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Visual Question Answering </title>
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="vqa.css" rel="stylesheet" type="text/css" />
+  </head>
+    <body background="https://wallpapercave.com/wp/dhRzfzg.jpg">      
+    <!--body background="https://wallpapercave.com/wp/SDI3ugA.jpg"-->
+    <!--body background="https://wallpapercave.com/wp/mwepbHp.jpg"-->
+        <div id="container">
+          
+          <header> 
+            <h1><strong>Hello,Dear User !</strong></h1>
+            <h2>Welcome to smart VQA</h2>
+            <h2> You have to feed an <strong>Image</strong> and a relevent <strong>Question</strong> to get your answer.</h2>
+          </header>
+          
+          <body>
+                <h3 id="img-heading" >Feed Image here ... &#128513<i class="fas fa-image" aria-hidden="true"></i></h3>
+            <div class="image-file">
+              <div class="form-input">
+                <label for="file-ip">Upload Image</label>
+                  <input type="file" id="file-ip" accept="image/*" onchange="showPreview(event);">
+                    <div class="preview">
+                      <img id="file-ip-preview">
+                    </div>
+              </div>
+           </div>
+            
+                <h3 id="ques-heading" >Enter your Question here ... &#128513 <i class="fas fa-question" aria-hidden="true"></i></h3>
+            <center><input type="text" name="question" id="question" placeholder="Your Question!" /><center>
+              
+              <center><button class="btn" type="submit "name="predict" id="predict"><strong>VQA Predict !</strong></button><center>
+
+    
+         </body>
+
+
+
+            
+
+            
+        <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                <p id="footer" >Copyright Me 2021 _@Aayan</p>
+        </footer>
+    
+      </div>
+      
+      
+      
+     <script>
+
+            function footerHover(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "#000000";
+                document.getElementById("footer").style.color= "#ff0000";
+            }
+            function footerNormal(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "orange";
+                document.getElementById("footer").style.color= "#ffffff";
+            }
+       
+          function showPreview(event){
+            if(event.target.files.length > 0){
+              var src = URL.createObjectURL(event.target.files[0]);
+              var preview = document.getElementById("file-ip-preview");
+              preview.src = src;
+              preview.style.display = "block";}
+           }
+            
+    </script>
+  </body>
+</html>
