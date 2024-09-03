@@ -1,0 +1,187 @@
+  body {
+ font-family: Arial;
+ color: SlateGray;
+
+ background-image: url("https://media.istockphoto.com/photos/fijian-family-playing-on-the-beach-picture-id157602978?b=1&k=20&m=157602978&s=170667a&w=0&h=0Y2Se9HOWrwX8YOxHlaNjUyZHkkB2pGw8AuIXBUFogI=");
+ background-size: cover;
+
+}
+
+body: :before{
+  content: "";
+  
+  background-size: cover;
+  background-position: center center;
+ 
+}
+
+#container{
+    background: rgba(170, 187, 97, 0.80);
+    padding: 2rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 55px;margin-bottom: 55px;
+}
+
+h1 {
+ color:darkgreen;
+ text-align:center;
+ font-size: 300%;
+ font-weight: 200;
+ text-decoration: underline dotted;
+}
+#hr-heading{
+background:white;
+width:75%;
+height:4px
+border-radius:45px;
+}
+
+#image {
+ width:90%;
+ height:auto;
+ padding:auto;
+}
+
+.img-text-container{
+padding:8px;
+margin:15px auto;
+}
+#img-left {
+ float:left;
+ width:35%;
+ height:7%;
+ padding:10px 10px 10px 50px;
+}
+.text-col{
+font-size: 95%;
+text-align:justify;
+/*padding:5px 0px 30px 575px;*/
+padding:0px 0px 35px 400px;
+
+}
+
+#hr{
+height:5px;
+border-radius:185px;
+background:linear-gradient(to right, red, yellow, green);
+margin: 25px;
+}
+
+#column1{
+  float: right;
+  width: 30%; 
+  padding: 30px 25px 20px 350px;
+}
+#column2{
+  float: left;
+  width: 30%; 
+  padding: 35px 70px 20px 350px;
+}
+
+iframe{
+ width:30%;
+ height:20%;
+}
+#video1{
+  padding: 20px 25px ;
+  
+}
+#icon-img{
+font-size: 150%;
+}
+
+h2 {
+ color: blueviolet;
+ text-transform: uppercase;
+ font-weight: 150;
+ font-size: 180%;
+}
+#ecobrick_vision{ color:YELLOW;
+ font-weight: 150;
+ font-size: 180%;
+ text-align:center;}
+#intro-head{
+    margin-top:150 px;
+    color:white;
+    text-align:center;
+}
+#icon-img{color:gold;}
+ .intro{
+  color: black;
+}
+
+
+li{
+  color: green;
+
+  font-size: 150%;
+  font-weight: 115;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p{
+ color: #FFFFFF;
+ font-weight: 125;
+ font-size: 160%;
+ text-align: center;
+}
+
+p0{
+ color: #000000;
+ font-weight: 125;
+ font-size: 160%;
+ justify-content:center;
+}
+
+
+footer {
+ margin-top: 50px;
+ background-color: orange;
+ color: White;
+}
+
+footer p {
+ text-align: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+ #container {
+  width: 90%;
+ }
+
+ h1 {
+  font-size: 150%;
+ }
+}
+@media only screen   
+and (min-width: 768px)  
+and (max-width: 1605px) 
+{ .text-col{
+font-size: 95%;
+text-align:justify;
+padding:0px 0px 35px 400px;
+}
+}
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px) 
+{ .text-col{
+font-size: 95%;
+text-align:justify;
+padding:0px 0px 35px 525px;
+}
+@media only screen   
+and (min-width: 1570px)  
+and (max-width: 1605px) 
+{ .text-col{
+font-size: 95%;
+text-align:justify;
+padding:0px 0px 35px 625px;
+}
+}
