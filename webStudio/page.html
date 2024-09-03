@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Ayana's webStudio</title>
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>>
+
+    <link href="page.css" rel="stylesheet" type="text/css" />
+  </head>
+    <body >
+        <div id="container">
+            <header onmouseover="imageHover()" onmouseout="imageNormal()">
+                
+                <h1 id="heading" >Warm Wellcome to Ayana's Web Studio </h1>
+                
+                <div id ="slider">
+                <figure>
+
+                    <img src="images/me.JPG" alt="A man drinking tea" id='image'> 
+                    <img src="images/lily.jpg" alt="A man drinking tea" id='image'> 
+                    <img src="images/library.jpg" alt="A man drinking tea" id='image'> 
+                    <img src="images/orange.jpg" alt="A man drinking tea" id='image'> 
+                    <img src="images/Sat_night.jpg" id='image'>
+
+                </figure>    
+                </div>
+                
+                
+                </div>
+            </header>
+
+            
+
+            <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                <p id="footer" >Copyright Me 2021 @Aayan</p>
+            </footer>
+        </div>
+        <script>
+
+
+
+
+            function footerHover(){
+                document.getElementById("footer").style.fontSize = "150%";
+                document.getElementById("footer").style.backgroundColor= "#000000";
+                document.getElementById("footer").style.color= "#ff0000";
+            }
+            function footerNormal(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "orange";
+                document.getElementById("footer").style.color= "#ffffff";
+
+            }
+
+        </script>
+
+    </body>
+</html>

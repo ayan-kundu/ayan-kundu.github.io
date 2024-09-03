@@ -1,0 +1,103 @@
+ body {
+ font-family: Arial;
+ color: SlateGray;
+ color: black;
+
+ background-image: url("https://w0.peakpx.com/wallpaper/897/221/HD-wallpaper-instagram-logo-brand-gauge-like-love-meter-neon-network-plus-swift.jpg");
+ background-repeat:no-repeat ;
+ background-size: cover;
+ background-position: center center;
+
+}
+#container{
+    background-color: rgba(255,255,255,0.95);
+    padding: 2rem;
+    border-radius: 75px;
+
+}
+
+
+h1 {
+ font-family: Papyrus;
+ text-align:center;
+ color: Slack;
+ font-weight: 100;
+ font-size: 250%;
+ border-bottom: 1.5px solid black;
+ margin-left: 100px;margin-right: 150px;
+
+
+}
+
+h2 {
+ color: Orange;
+ text-transform: uppercase;
+ font-weight: 100;
+}
+
+
+/*
+#slider {
+    overflow:  hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation:  10s slider infinite;
+}
+slider figure img{
+    width: 20;
+    float: left;
+}
+*/
+
+
+#image {
+ width: 45%;
+ height: 30%;
+ border-radius: 10px;
+
+}
+video{
+    width: 60%;
+    height: 75%;
+
+}
+
+
+
+footer {
+ margin-top: 70px;
+ border-radius: 10px;
+
+ background-color: orange;
+ color: White;
+}
+
+footer p {
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+
+#container {
+ width: 70%;
+ margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+ #container {
+  width: 90%;
+ }
+
+ h1 {
+  font-size: 200%;
+ }
+
+}

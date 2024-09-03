@@ -1,0 +1,60 @@
+body {
+ font-family: Arial;
+ color: SlateGray;
+ color: black;
+
+ background-image: url(
+    "https://www.shutterstock.com/image-photo/young-womans-wet-breast-blue-260nw-572361649.jpg");
+ 
+ background-repeat:no-repeat ;
+ background-size: cover;
+ 
+
+}
+#container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50px;
+}
+
+
+#heading {
+   font-family:fantasy ;
+   font-size: 100%;
+}
+
+#text {
+   font-family:fangsong ;
+   font-size: 100%;
+   text-align: center;
+
+}
+
+footer {
+
+ background-color: orange;
+ color: White;
+ border-radius: 100px;
+ 
+}
+
+footer p {
+ text-align: center;
+ padding-top: 2.5px;
+ border-radius: 100px;
+ 
+}
+
+#container {
+ width:50%;
+ margin: auto;
+ margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+ #container {
+  width: 80%;
+ }
+
+}
