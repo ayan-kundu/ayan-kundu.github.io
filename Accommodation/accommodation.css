@@ -1,0 +1,113 @@
+ body {
+ font-family: Arial;
+ color: SlateGray;
+
+ background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/02/4d/1c/71/cathedral-square-lincoln.jpg");
+ background-size: cover;
+
+}
+
+body: :before{
+  content: "";
+  
+  background-size: cover;
+  background-position: center center;
+ 
+}
+
+#container{
+    background: rgba(244, 287, 297, 0.75);
+    padding: 2rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 55px;margin-bottom: 55px;
+}
+
+h1 {
+ color:green;
+ text-align:center;
+ font-size: 300%;
+ font-weight: 200;
+}
+
+img {
+ width:80%;
+ height: 100%;
+ padding:10px 100px ;
+}
+
+#column1{
+  float: left;
+  width: 30%; 
+  padding: 20px 25px 20px 250px;
+}
+#column2{
+  float: left;
+  width: 30%; 
+  padding: 20px 40px 20px 25px;
+}
+
+
+
+
+b {
+ color: seagreen;
+
+}
+#intro-head{
+    margin-top:150 px;
+    color:white;
+}
+#icon-img{color:gold;}
+.intro{
+  color: black;
+
+
+}
+
+
+li{
+  color: black;
+
+  font-size: 150%;
+  font-weight: 115;
+}
+
+p{
+ color: slake;
+ font-weight: 125;
+ font-size: 180%;
+}
+
+p1{
+ color: slake;
+ font-weight: 125;
+ font-size: 180%;
+}
+
+footer {
+ margin-top: 70px;
+ background-color: orange;
+ color: White;
+}
+
+footer p {
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ font-size: 90%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+ #container {
+  width: 90%;
+ }
+
+ h1 {
+  font-size: 200%;
+ }
+
+}
