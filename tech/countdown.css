@@ -1,0 +1,64 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+
+}
+h2{
+    color:darkslateblue;
+    font-family: fantasy;
+
+    text-align: center;
+    margin-top: 12%;
+    margin-left:30% ;
+    margin-right:30%;
+    font-size: 150%;
+    background:rgba(255, 255, 255, 0.7);
+
+    border-radius: 50px;
+
+
+}
+p{
+    font-size: 375%;
+    text-align: center;
+    font-family: cursive;
+    color: darkgreen;
+}
+.dayTime{
+    font-size: 250%;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/71/15/43/240_F_271154304_j4YRl3t6mxoXJ5JkupIHpgScx6p1wtZV.jpg");
+    /*background-color: lightblue;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.80;
+    
+}
+
+.container{
+    margin: 2% 20% 10%;
+    background:rgba(255, 255, 255, 0.85);
+
+    border: 7.5px solid gold;
+    border-radius: 15px;
+    box-shadow: 15px 25px 30px black;
+
+
+}
+
+button{
+    margin-left: 28.5%;
+    font-size: 200%;font-family: inherit;color: darkviolet;
+    margin-top: 50px;margin-bottom: 7.5px ;
+    border-radius: 50px;
+
+}
+
+
+
