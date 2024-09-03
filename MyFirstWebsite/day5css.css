@@ -1,0 +1,66 @@
+ body {
+ font-family: Arial;
+ color: SlateGray;
+ color: black;
+
+ background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/blank-recipe-book-with-ingredients_SB_PM.jpg");
+ background-repeat:no-repeat ;
+ background-size: cover;
+ background-position: center center;
+
+}
+#container{
+    background-color: white;
+    padding: 2rem;
+}
+
+h1 {
+ text-align:center;
+ font-size: 300%;
+}
+
+h2 {
+ color: Orange;
+ text-transform: uppercase;
+ font-weight: 100;
+}
+
+img {
+ width: 100%;
+ height: 60%;
+}
+video{
+    width: 60%;
+    height: 75%;
+
+}
+
+
+footer {
+ margin-top: 70px;
+ background-color: orange;
+ color: White;
+}
+
+footer p {
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+#container {
+ width: 60%;
+ margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+ #container {
+  width: 90%;
+ }
+
+ h1 {
+  font-size: 200%;
+ }
+
+}
