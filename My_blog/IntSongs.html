@@ -1,0 +1,134 @@
+   
+<!DOCTYPE html>
+<html>
+  
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>International Songs meet </title>
+        <link rel="shortcut icon" type="image" href="https://tse1.mm.bing.net/th?id=OIP.f296OQz6VWCMnqvM5h0SkAHaHa&pid=Api&P=0&w=180&h=180">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+        <link href="blog_template.css" rel="stylesheet" type="text/css" />
+    </head>
+
+        <body onload="startTime()" > 
+            <div id="container">
+
+                <header onmouseover="imageHover()" onmouseout="imageNormal()">
+                    <h1 id="heading" ><center><strong>International Songs</strong><center></h1>
+
+                    <section id="intro image">
+                        <img src="https://drive.google.com/uc?id=1o39fAdZ6OtQBbfsgkiwPXwpY89OkD1C5">
+                    </section>
+                    
+
+                    <section id="audio"><center>
+                        <audio controls>
+                            <source src="Ayana❤️.mp3" type="audio/mpeg">
+
+                        </audio></center>
+                    </section>
+
+
+
+                    <section>
+
+                        <center>
+                        <h2>Songs </h2>
+                           <a href="https://www.youtube.com/watch?v=Q248Kc0pfSI&list=PLOwSo8kHs4XR_RJO2MhfzjI3pILFuobmo" target="_blank">
+                            German</a>
+                                                       <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=p_4coiRG_BI" target="_blank">Spanish</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=0wN3qRDDiUw" target="_blank">Indian</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=YBU97Lb6jHw" targer="_blank">
+                            Bengali</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=WPpkg03Kufs" target="_blank">African</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=wwGZ3qohqsA" target="_blank">Turkish</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=ab4-uWVYW1E" target="_blank">
+                            Arabic</a>
+                                                        <p id="space_above"></p>
+                            <a href="https://www.youtube.com/watch?v=K7TKKwY0Bgs" target="_blank">Vietnamese</a>
+                            <a href="https://www.youtube.com/watch?v=X43_MuW_8OM" target="_blank">Bulgerian</a>
+                            <a href="https://www.youtube.com/watch?v=rVCNr99Ceg0?t=80" "https://www.youtube.com/watch?v=L3-547BMMcc" target="_blank">
+                            Thailand</a>
+                            <a href="https://www.youtube.com/watch?v=dON9K1CKQ0k" target="_blank">Chaina</a>
+                            <a href="https://www.youtube.com/watch?v=3upmkvTlqVQ&list=PLMmVJHHEJ42-p0HrI1Xsxmms9IHmHJDk5"              target="_blank">
+                            Slovakia</a>
+                        </center>
+                    </section>
+
+                    <section>
+                        <div style="text-align: center ; color: green; font-family:cursive;font-size:22px ; font-weight: bold;padding-top: 15px; padding-bottom:5px ;" id="DateTime">
+                        </div>
+                    </section>
+
+
+
+            <section onmouseover="bodyHover()" onmouseout="bodyNormal()"> </section>
+            
+            
+                    <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                    <p id="footer" >Copyright Me 2021 _@Aayan</p>
+                    </footer>
+                    </div>
+                        <script>
+
+                            var currentDate=new Date();
+
+                            var year=currentDate.getFullYear();var month=currentDate.getMonth();var day=currentDate.getDate();
+                            var date=day+"/"+month+"/"+year;
+                            document.getElementById("DateTime").innerHTML=date;
+
+                            function startTime() {
+                            var hour=currentDate.getHours();var minute=currentDate.getMinutes();var second=currentDate.getSeconds(); 
+                            var time= date+" "+hour+":"+minute+":"+second;
+                            document.getElementById("DateTime").innerHTML=time;
+
+                            setTimeout(function(){startTime()});
+
+                            }
+                            /*var fullDateTime=date+" "+time;*/
+                            /*document.write(fullDateTime) */
+
+
+
+                            function bodyHover(){
+                                document.getElementById("ingredients").style.fontSize = "150%";
+                            }
+                            
+                            function bodyNormal(){
+                                document.getElementById("ingredients").style.fontSize = "100%";
+                            }
+                            
+                    
+                            function imageHover(){
+                                document.getElementById("heading").style.fontSize = "300%";
+                            }
+                            
+                            function imageNormal(){
+                                document.getElementById("heading").style.fontSize = "200%";
+                            }
+
+                            function footerHover(){
+                                document.getElementById("footer").style.fontSize = "100%";
+                                document.getElementById("footer").style.backgroundColor= "#000000";
+                                document.getElementById("footer").style.color= "#ff0000";
+                            }
+                            function footerNormal(){
+                                document.getElementById("footer").style.fontSize = "100%";
+                                document.getElementById("footer").style.backgroundColor= "orange";
+                                document.getElementById("footer").style.color= "#ffffff";
+                            }
+                        </script>
+         </body>
+
+
+</html
