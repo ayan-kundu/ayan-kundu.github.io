@@ -1,105 +1,102 @@
-    
 <!DOCTYPE html>
 <html>
-  
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aquahouse_Social</title>
+    <link rel="shortcut icon" type="image" href="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="socialPost.css" rel="stylesheet" type="text/css" />
+</head>
 
-        <title>Aquahouse_Social</title>
-        <link rel="shortcut icon" type="image" href="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0">
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
-        <link href="socialPost.css" rel="stylesheet" type="text/css" />
-    </head>
+<body onmousedown="return false" onselectstart="return false">
+    <div id="container">
 
-        <body onmousedown="return false" onselectstart="return false">
-            <div id="container">
+        <header onmouseover="imageHover()" onmouseout="imageNormal()">
+            <h1 id="heading">
+                <center><strong>Harvey House Group Chat!</strong></center>
+            </h1>
 
-                <header onmouseover="imageHover()" onmouseout="imageNormal()">
-                    <h1 id="heading" ><center><strong>Harvey House Group Chat!</strong><center></h1>
+            <section id="intro-image">
+                <center>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8vVnF1z9v0NSlz89Zy1S0KgSzS9cybgeyyw&s">
+                </center>
+            </section>
 
-                    <section id="intro-image"><center>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8vVnF1z9v0NSlz89Zy1S0KgSzS9cybgeyyw&s">
-                        </center>
-		            </section>
-                    
-                    <section id="audio"><center>
-                        <audio controls>
-                            <source src="https://github.com/ayan-kundu/ayan-kundu.github.io/raw/refs/heads/main/poet/Ayana%E2%9D%A4%EF%B8%8F.mp3" type="audio/mpeg">
+            <section id="audio">
+                <center>
+                    <audio controls>
+                        <source src="https://github.com/ayan-kundu/ayan-kundu.github.io/raw/refs/heads/main/poet/Ayana%E2%9D%A4%EF%B8%8F.mp3" type="audio/mpeg">
+                    </audio>
+                </center>
+            </section>
 
-                        </audio></center>
-                    </section>
-                    
+            <section id="social">
+                <h2>
+                    <center>#Social</center>
+                </h2>
 
-                <section>
-				
-                    <h2><center>#Social</center></h2>
+                <p>I am <customText>Ayän</customText> and recently have moved in. Comment what you think of having </p>
+            </section>
 
-                    <p>
-                    I am <customText>Ayän</customText> and recently have moved in. Comment what you think of having </p>
-				    
+            <section>
+                <h4>
+                    <center>Post Your Comment</center>
+                </h4>
 
-                </section>
+                <p id="space_above"></p>
+                <div class="comment_box">
+                    <label for="comment">Your post:</label>
+                    <input type="text" id="comment" name="comment">
+                    <button id="post_button">Post</button>
+                </div>
+            </section>
+        </header>
 
-                <section>
-                    <h4><center> PostYourComment </center></h4>
-                    
-                    <p id="space_above"></p>
-                    <div class="input-container"> <label for="textbox">Your post:   </label> <input type="text" id="comment_box" name="comment_box"> 
-                    </div>
-                </section>
-                </header>
-                    
+        <section onmouseover="bodyHover()" onmouseout="bodyNormal()"></section>
 
+        <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+            <p id="footer">Copyright 2024</p>
+        </footer>
+    </div>
 
+    <script>
+        document.addEventListener('keyup', (e) => {
+            if (e.key === 'PrintScreen') {
+                navigator.clipboard.writeText(' ');
+                alert('Sorry Screenshot Disabled!');
+            }
+        });
 
-        
-            <section onmouseover="bodyHover()" onmouseout="bodyNormal()"> </section>
-            
-            
-                    <footer onmouseover="footerHover()" onmouseout="footerNormal()">
-                    <p id="footer" >Copyright_2024</p>
-                    </footer>
-                    </div>
-                        <script>
-			document.addEventListener('keyup',(e)=>{
-                        	if(e.key = 'PrintScreen')
-                        		{
-                        			navigator.clipboard.writeText(' ');
-                        			alert('Sorry Screenshot Disabled!');
-                        		}
-                        	})
-                            function bodyHover(){
-                                document.getElementById("ingredients").style.fontSize = "150%";
-                            }
-                            
-                            function bodyNormal(){
-                                document.getElementById("ingredients").style.fontSize = "100%";
-                            }
-                            
-                    
-                            function imageHover(){
-                                document.getElementById("heading").style.fontSize = "300%";
-                            }
-                            
-                            function imageNormal(){
-                                document.getElementById("heading").style.fontSize = "200%";
-                            }
+        function bodyHover() {
+            document.getElementById("ingredients").style.fontSize = "150%";
+        }
 
-                            function footerHover(){
-                                document.getElementById("footer").style.fontSize = "100%";
-                                document.getElementById("footer").style.backgroundColor= "#000000";
-                                document.getElementById("footer").style.color= "#ff0000";
-                            }
-                            function footerNormal(){
-                                document.getElementById("footer").style.fontSize = "100%";
-                                document.getElementById("footer").style.backgroundColor= "orange";
-                                document.getElementById("footer").style.color= "#ffffff";
-                            }
-                        </script>
-         </body>
+        function bodyNormal() {
+            document.getElementById("ingredients").style.fontSize = "100%";
+        }
 
+        function imageHover() {
+            document.getElementById("heading").style.fontSize = "300%";
+        }
 
-</html
+        function imageNormal() {
+            document.getElementById("heading").style.fontSize = "200%";
+        }
+
+        function footerHover() {
+            document.getElementById("footer").style.fontSize = "100%";
+            document.getElementById("footer").style.backgroundColor = "#000000";
+            document.getElementById("footer").style.color = "#ff0000";
+        }
+
+        function footerNormal() {
+            document.getElementById("footer").style.fontSize = "100%";
+            document.getElementById("footer").style.backgroundColor = "orange";
+            document.getElementById("footer").style.color = "#ffffff";
+        }
+    </script>
+</body>
+
+</html>
