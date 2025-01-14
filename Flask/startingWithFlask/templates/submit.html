@@ -12,8 +12,10 @@
         <p>Thank you for submitting the form!</p>
         <p> </p>
         <p>User entered: <span class="user-input">
-            {{ user_input }}</span>
-        </p>
+            {{ user_input }}</span> on <span style="color: lightslategray;">  
+            {{ current_time }} </span>
+    </p>
+        <a href="{{ url_for('index') }}">Go back to home</a>
     </div>
 </body>
 </html>
