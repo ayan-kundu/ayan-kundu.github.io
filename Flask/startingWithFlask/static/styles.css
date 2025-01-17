@@ -1,3 +1,7 @@
+/* name  (for tag)
+   .name (for class)
+   #name (for class)
+*/
 body {
     background-image: url('background.jpeg'); /* Ensure this image is in your static folder */
     background-size: cover;
