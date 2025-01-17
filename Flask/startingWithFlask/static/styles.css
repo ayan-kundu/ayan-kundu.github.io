@@ -23,10 +23,11 @@ body {
 }
 
 h1.flask {
-    color: orange;
+    font-size: 15px ;
+    color: slategray;
 }
 h1.heading {
-    color: salmon;
+    color: whitesmoke;
 }
 
 h2.socialTag {
@@ -40,9 +41,16 @@ h2.comment_box_title {
     font-size: 18px;
     font-weight: 20;
 }
-
+#space_above {
+    margin-top: 25px;
+}
+customText{
+    font-style: italic;
+    font-size: 16px;
+    color: green;
+}
 img {
-    width: 80%;
+    width: 60%;
     height: 50%;
     border-radius: 5px;
 }
@@ -53,12 +61,24 @@ img {
     margin-bottom: 10px;
 }
 
+#iconLink{
+    width:35%;
+    height:40%;
+    text-align:center;
+}
+#QRLink{
+    width:30%;
+    height:30%;
+    text-align:center;
+    border-radius: 25px;
+}
+
 input[type="text"] {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: none;
-    width: 80%;
+    width: 50%;
 }
 
 .user-input {
