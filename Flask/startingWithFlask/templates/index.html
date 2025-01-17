@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  >
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" type="text/css">
+    <script>
+        function openHekateImage() {
+            window.open('https://i.etsystatic.com/48113081/r/il/ed5a89/5587997071/il_1140xN.5587997071_sdg5.jpg', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="flask">Welcome to My Flask App</h1>
+        <h1 class="heading" ><center><strong>Harvey House Group Chat!</strong><center>
+        </h1>
+
+
+        <section id="intro-image">
+            <center>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8vVnF1z9v0NSlz89Zy1S0KgSzS9cybgeyyw&s">
+            </center>
+        </section>
+
+        <section id="audio">
+            <center>
+                <audio controls>
+                    <source src="https://github.com/ayan-kundu/ayan-kundu.github.io/raw/refs/heads/main/poet/Ayana%E2%9D%A4%EF%B8%8F.mp3" type="audio/mpeg">
+                </audio>
+            </center>
+        </section>
+
+
+        
+        <section>   
+            <h2 class="socialTag"><center>#Social</center></h2>
+
+                <p>Hello, people at Harvey House. Hope you are enjoying your stay in here.
+                </p>
+
+                <p id="space_above"></p>
+                <p>
+                    <a href="https://www.instagram.com/ayanwesha.linc?igsh=MTdiNGpldmY3djRtdA%3D%3D&utm_source=qr">
+
+                    <center>
+                        <img  id='iconLink' src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo-500x281.png" alt="Insta link" >
+                    </center>
+                    </a>
+                </p>
+
+
+                <h2 class="comment_box_title">Leave your comment below!</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="user_input" placeholder="Enter your text here" required>
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <button class="hekate-button" type="button" onclick="openHekateImage()">Hekate</button>
+    </div>
+</body>
+</html>
