@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang ='en'>
+  <head>
+    <meta charset="viewport">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Countdown</title>
+
+    <h2>New year in ...</h2>
+    
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.css">
+
+    <link href="countdown.css" rel="stylesheet" type="text/css" />
+
+    <script>
+      function displayDate(){
+        
+          var text, day,month,year,hr,min,sec;
+          var show;
+          document.getElementById('showDate').innerHTML=Date();
+          text=document.getElementById('showDate').innerHTML;
+          //Mon Jan 02 2023 17:14:12 GMT+0000 (GMT)
+          day=text.slice(0,3);
+          date=text.slice(8,11)
+          month=text.slice(4,8);
+          year=text.slice(11,16)
+          hr=text.slice(16,18);
+          min=text.slice(19,21)
+          sec=text.slice(22,28)
+
+          Today=date+' '+month+' '+year;
+          Time=hr+':'+min+':'+sec;
+
+          document.getElementById('showDate').innerHTML=Today+'    -  '+Time;
+//        show=document.getElementById('showDate').innerHTML
+/*         for (let i=1;i>0;i++){
+          show.click();
+          await sleep(1000);
+          }
+*/      
+//      document.getElementById('showDate').innerHTML.click();
+        loop();
+      }
+      
+      function sleep(ms) {
+       return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      
+      async function loop() {
+        for (let i = 1; i >0 ; i++) {
+          displayDate();
+          await sleep(1000);   
+
+        }
+         
+      }
+
+    </script>
+
+  </head>
+    <body >
+        <div class="container">
+          <p class="dayTime">Day & Time</p>
+
+          <p id='showDate'></p>
+
+          <button type="button" onclick="displayDate()">Click Here for Date & Time </button>
+        </div>  
+
+        <div class='button'>
+          
+        </div>
+      
+</body>
+</html>
+
+
+
+
+
