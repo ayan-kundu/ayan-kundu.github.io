@@ -1,0 +1,123 @@
+/* name  (for tag)
+   .name (for class/name)
+   #name (for id)
+*/
+body {
+    background-image: url('background.jpeg'); /* Ensure this image is in your static folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px; /* Adjust this value to control the distance from the top */
+    background: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1.flask {
+    font-size: 15px ;
+    color: slategray;
+}
+h1.heading {
+    color: whitesmoke;
+}
+
+h2.socialTag {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 50;
+}
+h2.comment_box_title {
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 20;
+}
+#space_above {
+    margin-top: 25px;
+}
+customText{
+    font-style: italic;
+    font-size: 16px;
+    color: green;
+}
+img {
+    width: 60%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+#audio {
+    align-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#iconLink{
+    width:35%;
+    height:40%;
+    text-align:center;
+}
+#QRLink{
+    width:30%;
+    height:30%;
+    text-align:center;
+    border-radius: 25px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+}
+
+.user-input {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.hekate-button {
+    padding: 10px 80px; /* Increase padding to make the button wider */
+    border: none;
+    border-radius: 75px;
+    background-color: #4CAF50; /* Change this to any color you like */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hekate-button:hover {
+    background-color: black;
+}
+
+.container a {
+    color: orange;
+}
