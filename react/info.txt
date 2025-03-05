@@ -1,0 +1,12 @@
+# create package
+npx create-react-app my-app
+
+# navigate to dir
+cd my-app
+
+# To run your React app in development mode
+npm start
+>>>http://localhost:3000
+
+# to remove folder forcefully
+rmdir /s /q folder_name
