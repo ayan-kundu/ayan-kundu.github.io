@@ -86,10 +86,10 @@ customText{
     text-align:center;
 }
 #QR{
-    width:60%;
-    height:60%;
+    width:50%;
+    height:50%;
     text-align:center;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 footer {
